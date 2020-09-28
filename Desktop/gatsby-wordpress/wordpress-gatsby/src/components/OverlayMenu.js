@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import PropTypes from "prop-types"
-import WhiteLogo from '../images/tango_logo_white.svg'
+import WhiteLogo from '../images/MDMA.png'
 import CloseButton from '../images/tango_close_button.svg'
 import { Overlay } from './styles/OverlayMenuStyles';
 
@@ -45,6 +45,8 @@ const OverlayMenu = ({ menuOpen, callback }) => {
         tabIndex="0"
         onKeyDown={callback}
         >
+                  <img src={CloseButton} alt="tango-close-button" />
+
 
         </div>
         </div>

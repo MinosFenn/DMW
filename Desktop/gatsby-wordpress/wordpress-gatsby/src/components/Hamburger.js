@@ -2,11 +2,11 @@ import React from "react"
 
 import PropTypes from "prop-types"
 import { HamburgerButton } from './styles/HamburgerStyles';
-import HamburgerHeart from '../images/tango_heart_hamburger.svg';
+import HamburgerDNA from '../images/favicon2.png';
 
 const Hamburger = ({ handleOverlayMenu }) => (
 <HamburgerButton onClick={handleOverlayMenu} tabIndex="0">
-<img src={HamburgerHeart} alt="tango-hamburger" />
+<img src={HamburgerDNA} alt="tango-hamburger" />
 </HamburgerButton>
 )
 Hamburger.propTypes = {
