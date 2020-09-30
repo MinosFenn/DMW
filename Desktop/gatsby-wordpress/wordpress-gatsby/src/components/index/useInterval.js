@@ -19,3 +19,5 @@ export function useInterval(callback, delay) {
     }
   }, [delay]);
 }
+
+//taken from overeact.io
